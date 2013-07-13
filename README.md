@@ -1,22 +1,22 @@
-# Markdown Preview Component
+# AngularJS Markdown Preview Component
 
-Displays a text area. As you type it show live HTML preview under the text area.
+Displays a text area. Show live preview of HTML under the text area.
 
 ## Usage
 
-    <div class='MdPreview' />
-
-### Specify textarea's name attribute
-
-    <div class='MdPreview' data-textarea-name='markdown' />
+    <div class='iiMdPreview' />
 
 ### Init from text
 
-    <div class='MdPreview' data-text='Init text' />
+    <div class='iiMdPreview' text='Init text' />
 
 ### Init from url
 
-    <div class='MdPreview' data-url='/some-url' />
+    <div class='iiMdPreview' url='/some-url' />
+    
+### Specify textarea's name attribute
+
+    <div class='iiMdPreview' textarea-name='markdown' />
 
 ## Dependincies
 
