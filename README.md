@@ -18,6 +18,6 @@ Displays a text area. Show live preview of HTML under the text area.
 
     <div class='iiMdPreview' textarea-name='markdown' />
 
-## Dependincies
+## Dependencies
 
 * [marked](https://github.com/chjj/marked)
