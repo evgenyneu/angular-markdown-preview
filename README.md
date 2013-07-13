@@ -24,10 +24,23 @@ Markdown textarea with live HTML preview below.
 
     <div class='iiMdPreview' textarea-name='markdown' />
 
-## Dependencies
+## Development
 
-* [marked](https://github.com/chjj/marked)
-* 
+### Clone the Repo
 
+* `git clone https://github.com/evgenyneu/angular-markdown-preview.git`
+* `cd angular-markdown-preview`
+* `npm install`
+* `bower install -d`
 
-git clone https://github.com/evgenyneu/angular-markdown-preview.git
+### Run Tests
+
+* `grunt test`
+
+### Build
+
+* `grunt`
+
+### Open Test Page in Browser
+
+* `grunt server`
