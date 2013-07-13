@@ -1,6 +1,6 @@
 # AngularJS Markdown Preview Component
 
-Displays a text area. Show live preview of HTML under the text area.
+Markdown textarea with live HTML preview below.
 
 ## Usage
 
