@@ -4,6 +4,8 @@ Markdown textarea with live HTML preview below.
 
 ## Usage
 
+* Include `markdown_preview.js` and `marked.js` on your web page.
+
     <div class='iiMdPreview' />
 
 ### Init from text
