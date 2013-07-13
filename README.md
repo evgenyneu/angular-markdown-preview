@@ -1,6 +1,6 @@
 # AngularJS Markdown Preview Component
 
-Markdown textarea with live HTML preview below.
+Markdown textarea with live HTML preview.
 
 ## Setup
 
