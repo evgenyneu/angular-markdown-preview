@@ -1,14 +1,16 @@
 {
-  "name": "angularMarkdownPreview",
+  "name": "angular-markdown-preview",
   "version": "0.0.0",
+  "main": "dist/markdown_preview.min.js",
+  "ignore": ["app","node_modules", "test", ".*"],
   "dependencies": {
     "angular": "~1.0.7",
-    "json3": "~3.2.4",
-    "es5-shim": "~2.0.8",
-    "marked": "~0.2.9",
-    "jquery": "1.10.2"
+    "marked": "~0.2.9"
   },
   "devDependencies": {
+    "json3": "~3.2.4",
+    "es5-shim": "~2.0.8",
+    "jquery": "~1.10.2",
     "angular-mocks": "~1.0.7",
     "angular-scenario": "~1.0.7"
   }
