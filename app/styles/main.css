@@ -1,0 +1,10 @@
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.MdPreview-markdown {
+  width: 100%;
+  height: 100px;
+}
