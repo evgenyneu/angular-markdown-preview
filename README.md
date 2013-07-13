@@ -8,7 +8,7 @@ Markdown textarea with live HTML preview. This is an AngularJS module.
 
 * `bower install angular-markdown-preview`
 * On your web page include `marked.js` and `markdown_preview.js`. They were downloaded by bower in the previous step.
-* Add `evgenyneu.markdown-preview` module to your AngularJS module or add `ng-app='evgenyneu.markdown-preview'` attribute in HTML.
+* Add `evgenyneu.markdown-preview` module to your AngularJS dependencies or add `ng-app='evgenyneu.markdown-preview'` attribute in HTML.
 
 ## Usage
 
