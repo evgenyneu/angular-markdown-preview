@@ -92,8 +92,8 @@ module.exports = function (grunt) {
           dot: true,
           src: [
             '.tmp',
-            '<%= yeoman.dist %>/*',
-            '!<%= yeoman.dist %>/.git*'
+            'markdown_preview.js',
+            'markdown_preview.min.js'
           ]
         }]
       },
@@ -122,7 +122,7 @@ module.exports = function (grunt) {
     concat: {
       dist: {
         src: ['.tmp/scripts/app.js', '.tmp/scripts/controllers/main.js', '.tmp/scripts/directives/iiMdPreview.js'],
-        dest: '<%= yeoman.dist %>/markdown_preview.js',
+        dest: 'markdown_preview.js',
       }
     },
     concurrent: {
@@ -159,8 +159,8 @@ module.exports = function (grunt) {
     uglify: {
       dist: {
         files: {
-          '<%= yeoman.dist %>/markdown_preview.min.js': [
-            '<%= yeoman.dist %>/markdown_preview.js'
+          'markdown_preview.min.js': [
+            'markdown_preview.js'
           ]
         }
       }

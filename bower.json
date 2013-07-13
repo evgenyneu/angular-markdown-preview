@@ -1,8 +1,8 @@
 {
   "name": "angular-markdown-preview",
   "version": "0.0.0",
-  "main": "dist/markdown_preview.min.js",
-  "ignore": ["app","node_modules", "test", ".*"],
+  "main": "markdown_preview.min.js",
+  "ignore": ["app","node_modules", "test", ".*", "package.json", "karma*", "Grunt*"],
   "dependencies": {
     "angular": "~1.0.7",
     "marked": "~0.2.9"
