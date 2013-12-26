@@ -1,6 +1,6 @@
 # Markdown Preview
 
-Markdown textarea with live HTML preview. This is an AngularJS module. 
+Markdown textarea with live HTML preview. This is an AngularJS module.
 
 [See demo page](http://plnkr.co/DNUSfXduAlEoLiw5DbtB)
 
@@ -21,7 +21,7 @@ Markdown textarea with live HTML preview. This is an AngularJS module.
 ### Init from url
 
     <div class='iiMdPreview' url='/some-url' />
-    
+
 ### Specify textarea's name attribute
 
     <div class='iiMdPreview' textarea-name='markdown' />
@@ -32,17 +32,9 @@ Markdown textarea with live HTML preview. This is an AngularJS module.
 
 * `git clone https://github.com/evgenyneu/angular-markdown-preview.git`
 * `cd angular-markdown-preview`
-* `npm install`
-* `bower install -d`
+* `bower install`
 
 ### Run Tests
 
-* `grunt test`
-
-### Build
-
-* `grunt`
-
-### Open Test Page in Browser
-
-* `grunt server`
+* Install Karma if not installed: `npm install karma -g`
+* Run the tests: `karma start karma.conf.js`
