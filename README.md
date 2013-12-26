@@ -37,5 +37,5 @@ Tested with AngularJS v1.2.6.
 
 ### Run Tests
 
-* Install Karma if not installed: `npm install karma -g`
+* Install Karma if not installed: `npm install karma -g`. Last tested with Karma v0.10.8.
 * Run the tests: `karma start karma.conf.js`
