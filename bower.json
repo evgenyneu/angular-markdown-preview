@@ -2,7 +2,7 @@
   "name": "angular-markdown-preview",
   "version": "0.1.0",
   "main": "markdown_preview.js",
-  "ignore": ["test", ".*"],
+  "ignore": ["test", ".*", "karma*"],
   "dependencies": {
     "marked": "~0.2.9"
   },
