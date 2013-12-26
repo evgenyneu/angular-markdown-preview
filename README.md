@@ -1,6 +1,7 @@
 # Markdown Preview
 
 Markdown textarea with live HTML preview. This is an AngularJS module.
+Tested with AngularJS v1.2.6.
 
 [See demo page](http://plnkr.co/DNUSfXduAlEoLiw5DbtB)
 
