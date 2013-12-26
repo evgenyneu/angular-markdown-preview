@@ -20,15 +20,15 @@ describe 'Ctrl', () ->
     it 'gets markdown text from server', ->
       expect(@$window.marked).toHaveBeenCalledWith('md form server')
 
-  describe 'initFromText', ->
-    beforeEach -> @scope.initFromText('some test **markdown**')
-    it 'converts the text to html', ->
-      expect(@$window.marked).toHaveBeenCalledWith('some test **markdown**')
+  # describe 'initFromText', ->
+  #   beforeEach -> @scope.initFromText('some test **markdown**')
+  #   it 'converts the text to html', ->
+  #     expect(@$window.marked).toHaveBeenCalledWith('some test **markdown**')
 
-  describe 'md2Html', ->
-    beforeEach ->
-      @scope.markdown = '# Header'
-      @scope.md2Html()
+  # describe 'md2Html', ->
+  #   beforeEach ->
+  #     @scope.markdown = '# Header'
+  #     @scope.md2Html()
 
-    it 'calls marked', -> expect(@$window.marked).toHaveBeenCalledWith('# Header')
-    it 'assigns html', -> expect(@scope.html).toBe('<h1>Header</h1>')
+  #   it 'calls marked', -> expect(@$window.marked).toHaveBeenCalledWith('# Header')
+  #   it 'assigns html', -> expect(@scope.html).toBe('<h1>Header</h1>')
