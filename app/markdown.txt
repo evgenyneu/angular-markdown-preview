@@ -1,3 +1,0 @@
-## Markdown from server
-
-[link](http://to.nowhere)
